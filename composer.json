@@ -1,0 +1,19 @@
+{
+    "name": "todocoding/lexoffice",
+    "description": "Laravel LexOffice API.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Todocoding\\Lexoffice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yug Normand Ngnague Fosso",
+            "email": "yugnormandngangue@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
