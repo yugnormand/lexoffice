@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Todocoding\\Lexoffice\\LexofficeServiceProvider"
+            ],
+            "aliases": {
+                "Lexoffice": "Todocoding\\Lexoffice\\Facades\\Lexoffice"
+            }
+        }
+    }
 }
